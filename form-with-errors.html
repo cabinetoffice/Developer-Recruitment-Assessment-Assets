@@ -1,15 +1,15 @@
-<form class="form" method=”post” action=””>
+<form class="form" method="post" action="">
 
     <p class="pull-right">* Denotes required information</p>
 
     <label class="control-label" for="full_name">Name *</label>
-    <input type="text" class="form-control" name="full_name" id="full_name" maxlength="30" value=""/>
+    <input type="text" class="form-control" name="full_name" id="full_name" maxlength="30" value="" required />
 
     <label class="control-label" for="email">Email *</label>
-    <input type="text" class="form-control" name="email" id="email" maxlength="150" value=""/>
+    <input type="text" class="form-control" type="email" name="email" id="email" maxlength="150" value="" />
 
     <label class="control-label" for="confirm_email">Confirm email *</label>
-    <input type="text" class="form-control" name="confirm_email" id="email_confirm" maxlength="150" value=""/>
+    <input type="text" class="form-control" name="confirm_email" id="email_confirm" maxlength="150" value="" />
 
     <label class="control-label" for="subject">Subject *</label>
     <select class="form-control" name="subject" id="subject">
@@ -21,7 +21,7 @@
     </select>
 
     <label class="control-label" for="subject_other">If other, please specify</label>
-    <input type="text" class="form-control" name="subject_other" id="subject_other" maxlength="200" value=""/>
+    <input type="text" class="form-control" name="subject_other" id="subject_other" maxlength="200" value="" />
 
     <label class="control-label" for="message">Message * (1500 characters max.)</label>
     <textarea rows="10" id="message" name="message"></textarea>
@@ -30,3 +30,4 @@
     </div>
 
 </form>
+
